@@ -80,8 +80,8 @@
       });  
       
 
-    /* Back Top Link active
-    ========================================================*/
+    /* Back Top Link inactive
+    ========================================================
       var offset = 200;
       var duration = 500;
       $(window).scroll(function() {
@@ -99,7 +99,7 @@
         }, 600);
         return false;
       });
-
+    */
   });      
 
 }(jQuery));

@@ -1307,18 +1307,18 @@ textarea {
   color: #FC944C;
 }
 
-.footer-area .address li {
+.address li {
   margin-bottom: 20px;
 }
 
-.footer-area .address li a {
+.address li a {
   color: #666666;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
 }
 
-.footer-area .address li a i {
+.address li a i {
   font-size: 22px;
   width: 32px;
   vertical-align: middle;
@@ -1404,4 +1404,27 @@ textarea {
 
 .social-icon .google:hover {
   background: #CE332A;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('../img/wpp.png');
+  background-color: #FFF;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 10;
+  border: 5px solid #FFF;
+}
+
+.whatsapp-button:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+  animation-duration: 0.4s;
+  animation-delay: 0;
 }
